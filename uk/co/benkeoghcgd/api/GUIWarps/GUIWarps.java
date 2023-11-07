@@ -18,7 +18,7 @@ import uk.co.benkeoghcgd.api.AxiusCore.Utils.Logging;
 import uk.co.benkeoghcgd.api.AxiusCore.API.Utilities.GUI;
 
 public class GUIWarps extends AxiusPlugin {
-    int spigotResourceID = 000000, bStatsResourceID = 18505;
+    int spigotResourceID = 113434, bStatsResourceID = 18505;
     ConfigYML cfgyml;
     WarpsYML waryml;
 
@@ -31,7 +31,7 @@ public class GUIWarps extends AxiusPlugin {
 
         PublicPluginData ppd = new PublicPluginData();
         ppd.setVersionSeparator(".");
-        ppd.setUpdaterMethod(UpdaterMethod.NO_UPDATE);
+        ppd.setUpdaterMethod(UpdaterMethod.SPIGOT);
         ppd.setSpigotID(spigotResourceID);
         ppd.setPublicStatus(true);
         ppd.setRegisterStatus(true);

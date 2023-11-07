@@ -16,6 +16,7 @@ public class UpdateWarpCommand extends AxiusCommand {
         super(instance, false, "updatewarp", "Alter the position, icon, or name of an existing warp",
                 instance.getNameFormatted() + "§7 /updatewarp <name> [icon|name|location] [newIcon|newName",
                 "updw", "uw", "updatewarps", "uws", "updws");
+        setPermission("guiwarps.update");
     }
 
     @Override
